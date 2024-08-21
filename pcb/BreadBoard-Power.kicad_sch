@@ -4,12 +4,12 @@
 	(generator_version "8.0")
 	(uuid "5f426d66-dd18-45a2-b643-57fa0dc3126a")
 	(paper "A4")
-    (title_block
-                (title "BreadBoard-Power")
-                (date "${DATE}")
-                (rev "${VERSION}")
-                (company "Qetesh")
-            )
+	(title_block
+		(title "BreadBoard-Power")
+		(date "${DATE}")
+		(rev "${VERSION}")
+		(company "Qetesh")
+	)
 	(lib_symbols
 		(symbol "Connector:USB_C_Receptacle_PowerOnly_6P"
 			(pin_names
@@ -1889,12 +1889,6 @@
 		(uuid "15f158df-d8b3-43df-bf2e-9edccd5376cc")
 	)
 	(junction
-		(at 124.46 49.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "29125cb2-95e3-4c54-8e45-455e1d3a5823")
-	)
-	(junction
 		(at 90.17 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1917,12 +1911,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "59340c9a-db78-497a-b956-816fa59f22c3")
-	)
-	(junction
-		(at 153.67 49.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5974b009-5977-4c4e-8fe5-11f806a66491")
 	)
 	(junction
 		(at 50.8 73.66)
@@ -2077,16 +2065,6 @@
 			(type default)
 		)
 		(uuid "300b3350-eed0-4080-86ff-30eb65905c25")
-	)
-	(wire
-		(pts
-			(xy 124.46 48.26) (xy 124.46 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3f8b05bc-54c5-484d-8a94-5aff9c5f79aa")
 	)
 	(wire
 		(pts
@@ -2370,16 +2348,6 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 48.26) (xy 153.67 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b48af9a8-6638-4723-bb07-0c975aa24042")
-	)
-	(wire
-		(pts
 			(xy 127 58.42) (xy 124.46 58.42)
 		)
 		(stroke
@@ -2549,6 +2517,17 @@
 		)
 		(uuid "12d49c36-115e-4be8-90ac-eff34524344f")
 	)
+	(label "D1"
+		(at 184.15 53.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "71724a8e-62a9-4691-a618-ff44bba513b2")
+	)
 	(label "Rail1"
 		(at 124.46 54.61 90)
 		(fields_autoplaced yes)
@@ -2570,6 +2549,17 @@
 			(justify left bottom)
 		)
 		(uuid "cdc32efd-aea0-46f6-893e-672cd9e00874")
+	)
+	(label "D2"
+		(at 193.04 53.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d7549dfb-6ba2-4ce0-878e-7e6e6c3c62ed")
 	)
 	(label "CC1"
 		(at 66.04 58.42 0)
